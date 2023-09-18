@@ -12,5 +12,5 @@ patches:
     patch: |-
       - op: replace
         path: /spec/ports/targetPort
-        value: 8081
+        value: "8081"
 
