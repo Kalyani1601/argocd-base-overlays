@@ -13,11 +13,4 @@ patchesJson6902:
       - op: replace
         path: spec/ports/targetPort
         value: 8081
-  - target:
-      version: v1
-      kind: Deployment
-      name: welcome-php
-    patch: |-
-      - op: replace
-        path: spec/template/spec/containers/name
-        value: welcome-kalyani
+
