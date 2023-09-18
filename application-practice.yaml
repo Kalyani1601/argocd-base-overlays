@@ -8,7 +8,7 @@ spec:
 
   source:
     repoURL: https://github.com/Kalyani1601/argocd-base-overlays.git
-    targetRevision: HEAD
+    targetRevision: practice
     path: overlays/practice
   destination: 
     server: https://kubernetes.default.svc
