@@ -7,9 +7,9 @@ bases:
 patchesJson6902:
   - target:
       version: v1
-      kind: Deployment
+      kind: Service
       name: welcome-php
     patch: |-
       - op: replace
-        path: /spec/template/spec/containers/0/name
-        value: welcome-kalyani
+        path: /spec/ports/0/port
+        value: 8081
