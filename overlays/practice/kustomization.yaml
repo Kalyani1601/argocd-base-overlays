@@ -11,6 +11,6 @@ patches:
       name: welcome-php
     patch: |-
       - op: replace
-        path: spec/ports/targetPort
+        path: /spec/ports/targetPort
         value: 8081
 
