@@ -4,7 +4,7 @@ kind: Kustomization
 bases:
 - ../../base
 
-patches:
+patchesJson6902:
   - target:
       version: v1
       kind: Deployment
