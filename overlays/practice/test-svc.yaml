@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: welcome-php
+spec:
+  ports:
+  - targetPort: 8081
